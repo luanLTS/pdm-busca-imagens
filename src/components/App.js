@@ -1,5 +1,10 @@
 import { Card } from 'primereact/card';
+import Busca from './Busca';
 
 export const App = () => {
-  return <Card>Hello World</Card>;
+  return (
+    <Card>
+      <Busca />
+    </Card>
+  );
 };
