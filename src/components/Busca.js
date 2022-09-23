@@ -24,7 +24,7 @@ export default class Busca extends Component {
           />
           <label>{this.props.rotulo}</label>
         </span>
-        <Button label='Buscar' className='p-button-rounded' />
+        <Button label='Buscar' className='p-button-rounded mt-2' />
       </div>
     );
   }
